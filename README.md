@@ -56,4 +56,4 @@ The UI is fully built with **FXML** and images; game logic is handled in a singl
 - Else: small chance a **monster** appears and deals a small hit; otherwise you rest safely.
 
 - # Screenshots Playing the Game
-- 
+[PLAYING the Game PDF](./assets/play.pdf)

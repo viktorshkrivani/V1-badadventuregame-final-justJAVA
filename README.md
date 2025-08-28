@@ -5,13 +5,13 @@ The UI is fully built with **FXML** and images; game logic is handled in a singl
 
 ## Demo & Screenshots
 - **Start Screen**  
-  ![Start Screen](docs/images/start-screen.png)
+  ![Start Screen](./assets/1.png)
 
 - **Intro / Instructions**  
-  ![Intro Screen](docs/images/intro-screen.png)
+  ![Intro Screen](./assets/2.png)
 
 - **Game Screen**  
-  ![Game Screen](docs/images/game-screen.png)
+  ![Game Screen](./assets/3.png)
 
   ## Gameplay Overview
 
@@ -56,4 +56,4 @@ The UI is fully built with **FXML** and images; game logic is handled in a singl
 - Else: small chance a **monster** appears and deals a small hit; otherwise you rest safely.
 
 - # Screenshots Playing the Game
-- 
+[PLAYING the Game PDF](./assets/play.pdf)

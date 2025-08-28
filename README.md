@@ -5,7 +5,7 @@ The UI is fully built with **FXML** and images; game logic is handled in a singl
 
 ## Demo & Screenshots
 - **Start Screen**  
-  ![Start Screen](.assets.1.png)
+  ![Start Screen](./assets/1.png)
 
 - **Intro / Instructions**  
   ![Intro Screen](docs/images/intro-screen.png)

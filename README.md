@@ -8,10 +8,10 @@ The UI is fully built with **FXML** and images; game logic is handled in a singl
   ![Start Screen](./assets/1.png)
 
 - **Intro / Instructions**  
-  ![Intro Screen](docs/images/intro-screen.png)
+  ![Intro Screen](./assets/2.png)
 
 - **Game Screen**  
-  ![Game Screen](docs/images/game-screen.png)
+  ![Game Screen](./assets/3.png)
 
   ## Gameplay Overview
 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.badadventuregame.HelloController">
+   <children>
+      <ImageView fx:id="Idoors" fitHeight="284.0" fitWidth="624.0" layoutX="-4.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\vikto\OneDrive\Desktop\final project/bbaa.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbag" layoutX="251.0" prefHeight="25.0" prefWidth="98.0" text="BAD ADVENTURE GAME" textFill="WHITE">
+         <font>
+            <Font name="Inter Regular" size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="lpresstostart" layoutX="248.0" layoutY="308.0" prefHeight="19.0" prefWidth="121.0" text="Press START to start the game">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Button id="startButton" layoutX="220.0" layoutY="320.0" mnemonicParsing="false" onAction="#SwitchGameView" prefHeight="66.0" prefWidth="179.0" style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-text-fill: transparent;" styleClass="crazyButton">
+         <graphic>
+            <ImageView id="startImg" accessibleRole="BUTTON" cache="true" fitHeight="56.0" fitWidth="138.0" mouseTransparent="true" onMouseClicked="#SwitchGameView" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\vikto\OneDrive\Desktop\final project/start.png" />
+               </image>
+               <effect>
+                  <Glow level="0.48" />
+               </effect>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="210.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\vikto\OneDrive\Desktop\final project/thedoordilema.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
